@@ -1,0 +1,68 @@
+/* General */
+body {
+  background-color: #fffaf0;
+  color: #4a4a4a;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffcce7 !important;
+}
+.navbar .nav-link {
+  color: #fff;
+  font-weight: bold;
+}
+.navbar .nav-link:hover {
+  color: #ff88c2;
+}
+
+/* Header */
+.head-image {
+  background-color: #ffe4e1;
+  height: 300px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head-text h2 {
+  color: #ff69b4;
+  text-shadow: 2px 2px #ffbee0;
+}
+.head-text p {
+  color: #ff88c2;
+  font-size: 1.2em;
+}
+
+/* Botones kawaii */
+.btn-primary {
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 50px;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #ff88c2;
+}
+
+/* Tarjetas */
+.card {
+  border: 2px solid #ffbee0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card-title {
+  color: #ff69b4;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #ffe4e1;
+  color: #ff69b4;
+  font-size: 1rem;
+}
