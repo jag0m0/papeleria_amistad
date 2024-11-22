@@ -1,0 +1,348 @@
+/* Estilos para el header */
+#header {
+  background-color: #f06292; /* Color rosa para el header */
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  height: 400px;
+  font-weight: bold;
+}
+
+/* Estilos para la barra de navegacion */
+.navbar {
+  background-color: #c97f98; /* Color rosa para la barra de navegacion */
+}
+.navbar .nav-link {
+  color: white;
+ /* Color blanco para las letras de navegacion */
+}
+.navbar .nav-link:hover {
+  color: #ffd1dc;
+}
+
+/* .navbar-tabs .navbar-item .navbar-link.active {
+  color: #d81b60;
+} */
+/* .navbar-nav .nav-link.active {
+
+  color: #400047!important;
+
+} */
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #fdc3f0!important; /* Cambia a un color que destaque */
+  border-bottom: 2px solid #cb24ce; /* Línea debajo del link activo */
+}
+
+
+.text-primary {
+  color: #60ad63 !important;
+}
+
+#nav-link
+{
+  color: #f06292;
+}
+/* Estilos para el nombre de la pape */
+/* Estilos para el titulo*/
+.head-image {
+  /* background-image: url('https://via.placeholder.com/1200x400'); */
+  background-color: #ffd1dc;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+}
+.head-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: #c97f98;
+  padding: 20px;
+  border-radius: 5px;
+}
+/* Estilos de la secciones */
+
+.section-title a {
+  text-decoration: none;
+  color: #f06292;
+}
+h3{
+
+  color: #f06292
+}
+.section-title {
+  color: #f06292;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* EStilos de los iconos de redes sociales */
+.social-icons a {
+  font-size: 1.5rem;
+  color: #f06292;
+  margin: 0 10px;
+}
+.social-icons a:hover {
+  color: #d81b60;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de seccion destacada */
+.hero-image {
+  background-image: url('https://via.placeholder.com/1200x400');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Estilos para la seccion de PRODUCTOS */
+
+/* Estilos del precio */
+
+/* paginacion */
+.pagination .page-link {
+  color: white;
+  background-color: #f06292;
+  border: none;
+}
+.pagination .page-link:hover {
+  background-color: #d81b60;
+  color:white;
+}
+.pagination .active .page-link {
+  background-color: #d81b60;
+  border-color: none;
+}
+
+
+
+.product-price {
+  color: #d81b60 !important;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+.add-to-cart-btn {
+  background-color: #f06292 !important;
+  color: white!important;
+  font-size: 1.1rem!important;
+  border: none!important;
+  transition: background-color 0.3s!important;
+}
+.add-to-cart-btn:hover {
+  background-color: #d81b60 !important;
+}
+
+
+/* Estilos para la seccion de SERVICIOs */
+/* Estilos de las tarjetas */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-10px); /* Efecto hover */
+}
+.card-title {
+  color: #f06292;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card-text {
+  color: #333;
+}
+
+/* Botones */
+
+
+.btn-primary{
+
+  background-color: #f06292!important;
+  color: white!important;
+  font-size: 1.1rem!important;
+  border: none!important;
+  transition: background-color 0.3s!important;
+
+}
+
+.btn-primary:hover {
+  background-color: #d81b60!important;
+}
+
+.cotizar-btn {
+  background-color: #f06292!important;
+  color: white!important;
+  font-size: 1.1rem!important;
+  border: none!important;
+  transition: background-color 0.3s!important;
+}
+.cotizar-btn:hover {
+  background-color: #d81b60!important;
+}
+/* Estilos para los iconos */
+.service-icon {
+  font-size: 2.5rem;
+  color: #f06292;
+}
+
+
+
+/* TABS ESTILOS */
+.nav-tabs .nav-item .nav-link {
+  background-color: #f06292;
+  color: #FFF;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+  color: #d81b60;
+}
+
+.tab-content {
+  border: 1px solid #dee2e6;
+  border-top: transparent;
+  padding: 15px;
+}
+
+.tab-content .tab-pane {
+  background-color: #FFF;
+  color: #bc5f92;
+  min-height: 200px;
+  height: auto;
+}
+
+/* Animaciones de entrada */
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 400px; /* Puedes ajustar la altura según sea necesario */
+  object-fit: cover; /* Para asegurar que la imagen se ajuste bien dentro del contenedor */
+}
+
+
+/* Estilos generales para la galería */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.gallery-item:hover .gallery-caption {
+  opacity: 1;
+}
+
+
+/* Estilos generales del carrusel */
+#ofertasCarousel {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(210, 52, 52, 0.3);
+}
+
+/* Estilo de las imágenes */
+#ofertasCarousel .carousel-item img {
+  object-fit: cover;
+  height: 400px;
+}
+
+/* Estilo de las capciones */
+#ofertasCarousel .carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Animaciones para las capciones */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Botones de control del carrusel */
+#ofertasCarousel .carousel-control-prev-icon,
+#ofertasCarousel .carousel-control-next-icon {
+  background-color: rgba(150, 21, 21, 0.7);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* Indicadores del carrusel */
+#ofertasCarousel .carousel-indicators button {
+  background-color: rgba(177, 128, 173, 0.7);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+#ofertasCarousel .carousel-indicators .active {
+  background-color: #ff00eeb2;
+}
